@@ -32,8 +32,8 @@ MODULE_NOUS_L12Z:
   alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
-  stock_manufacturer_id: XXXXX
-  stock_image_type: XXXXX
+  stock_manufacturer_id: 4417
+  stock_image_type: 524
   firmware_image_type: XXXXX
   build: yes
   status: in_progress

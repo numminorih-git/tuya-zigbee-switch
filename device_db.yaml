@@ -13,34 +13,30 @@
 # - Keep KEYs in (mostly) alphabetical order
 # - Keep attributes in the same order
 
-MODULE_TUYA_GIRIER_TS0013:
-  human_name: Tuya/Girier 3-gang L-only
+MODULE_NOUS_L12Z:
+  human_name: Nous L12Z
   category: module
   power: mains
-  neutral: without
-  output: null
-  device_type: end_device
-  stock_model_name: TS0013
+  neutral: required
+  output: relay
+  device_type: router
+  stock_model_name: TS130F
   stock_manufacturer_name: _TZ3000_jwv3cwak
-  stock_converter_manufacturer: Tuya
-  stock_converter_model: TS0013_switch_module
-  override_z2m_device: ZB08
+  stock_converter_manufacturer: Nous
+  stock_converter_model: L12Z
+  override_z2m_device: null
   tuya_module: null
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: ypgri8yz;ZB08-custom;BA0u;LD7;SC2u;RC0;SC3u;RB4;SD2u;RB5;
+  config_str: jwv3cwak;TS130F-GIR;...
   alt_config_str: null
-  old_manufacturer_names:
-  - Girier-ZB08-custom
-  - Girier-ZB08-custom-ED
-  old_zb_models:
-  - ZB08-custom-ED
-  stock_manufacturer_id: 4417
-  stock_image_type: 54179
-  firmware_image_type: 43539
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: XXXXX
+  stock_image_type: XXXXX
+  firmware_image_type: XXXXX
   build: yes
-  status: fully_supported
-  info: Supported
-  threads: https://github.com/romasku/tuya-zigbee-switch/issues/37
+  status: in_progress
+  info: Initial NOUS L12Z port
+  threads: null
   store: null
-

@@ -56,9 +56,7 @@ MODULE_NOUS_L12Z:
   tuya_module: null
   mcu_family: Telink
   mcu: TLSR8258
-  config_str: jwv3cwak;TS130F-NOUS;SC3u;RB4;SD2u;RB5;
-  alt_config_str:
-    - jwv3cwak;TS130F-NOUS;XD2C3u;CB5B4;
+  config_str: jwv3cwak;TS130F-NOUS;BD2u;XC2C3u;CB5B4;
   old_manufacturer_names: null
   old_zb_models: null
   stock_manufacturer_id: 4417

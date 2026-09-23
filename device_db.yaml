@@ -34,7 +34,7 @@ MODULE_NOUS_L12Z:
   old_zb_models: null
   stock_manufacturer_id: 4417
   stock_image_type: 524
-  firmware_image_type: ЧИСЛО_ИЗ_КОМАНДЫ
+  firmware_image_type: 47119
   build: yes
   status: in_progress
   info: Initial NOUS L12Z port

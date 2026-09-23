@@ -64,6 +64,7 @@ MODULE_NOUS_L12Z:
   firmware_image_type: 47119
   build: yes
   status: in_progress
-  info: Initial NOUS L12Z port
+  info: Relay outputs and reset button confirmed; wall inputs and network LED unresolved
   threads: null
-  store: null
+  store: https://nous.technology/product/l12z.html
+  

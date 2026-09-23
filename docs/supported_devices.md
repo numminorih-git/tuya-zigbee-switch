@@ -42,6 +42,6 @@ Support new devices: [contribute/porting.md](/docs/contribute/porting.md)
 | 🚧 | 📦 | 💡 | ⚡️ | 📲 |  🏭  | Zb&nbsp;Manufacturer <br> Zb&nbsp;Model | Name <br> Z2M&nbsp;page&nbsp;🔗 | Store | Threads | Status |
 | -- | -- | -- | -- | -- | :--: | :-------------------------------------- | :------------------------------ | ----: | ------: | :----- |
 | 🟩 | ✔️ | 🇧 | 🔌 | 🛜 | **TL** | `_TZ3000_g8n1n7lg` <br> `TS0001` | [Scimagic ZG-001 1ch-RF](https://www.zigbee2mqtt.io/devices/ZG-001.html) | [`AlEx`](https://aliexpress.com/item/1005004657817159.html) | [`#330`](https://github.com/romasku/tuya-zigbee-switch/issues/330) | Supported | 
-| 🟧 | ✔️ | 🇲 | 🔌 | 🛜 | **TL** | `_TZ3000_jwv3cwak` <br> `TS130F` | [Nous L12Z](https://www.zigbee2mqtt.io/devices/L12Z.html) |   |   | Initial NOUS L12Z port | 
+| 🟧 | ✔️ | 🇲 | 🔌 | 🛜 | **TL** | `_TZ3000_jwv3cwak` <br> `TS130F` | [Nous L12Z](https://www.zigbee2mqtt.io/devices/L12Z.html) | [`Store`](https://nous.technology/product/l12z.html) |   | Relay outputs and reset button confirmed; wall inputs and network LED unresolved | 
 
 Data from [`device_db.yaml`](/device_db.yaml)

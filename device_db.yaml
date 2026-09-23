@@ -50,9 +50,9 @@ MODULE_NOUS_L12Z:
   device_type: router
   stock_model_name: TS130F
   stock_manufacturer_name: _TZ3000_jwv3cwak
-  stock_converter_manufacturer: Nous
-  stock_converter_model: L12Z
-  override_z2m_device: null
+  stock_converter_manufacturer: Tuya
+  stock_converter_model: TS130F
+  override_z2m_device: L12Z
   tuya_module: null
   mcu_family: Telink
   mcu: TLSR8258

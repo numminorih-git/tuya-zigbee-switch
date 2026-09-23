@@ -33,6 +33,7 @@ const tuyaModels = [
     "TS0003",
     "TS0004",
     "TS0726_3_gang",
+    "TS130F",
 ];
 
 for (let definition of tuyaDefinitions) {

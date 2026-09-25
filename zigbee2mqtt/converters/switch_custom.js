@@ -17034,6 +17034,7 @@ const definitions = [
             deviceEndpoints({ endpoints: {"cover_switch": 1, "cover": 2, } }),
             romasku.deviceConfig("device_config", "cover_switch"),
             romasku.multiPressResetCount("multi_press_reset_count", "cover_switch"),
+            romasku.networkIndicator("network_led", "cover_switch"),
             windowCovering({ 
                 controls: ["lift"],
                 coverInverted: true,

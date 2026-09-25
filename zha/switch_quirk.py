@@ -562,7 +562,7 @@ CONFIGS = [
     "Zemi-2-gang;Zemi-2-gang-ED;SC3u;RC2D4;IB7;SD2u;RB5C4;ID7;LP50;M;",
     "ilauzyjm;TS0011-ZS;SB0u;RD1A4;IA6;M;",
     "rbl8c85w;TS0012-ZS;SA0u;RD1A4;IC1;SB1u;RC0C2;IA5;M;",
-    "jwv3cwak;TS130F-NOUS;BD2u;XC2C3u;CB5B4;",
+    "jwv3cwak;TS130F-NOUS;BD2u;LD3i;XA0D7u;CB5B4;",
 ]
 
 for config in CONFIGS:

@@ -6454,7 +6454,7 @@ MODULE_NOUS_L12Z:
   stock_converter_manufacturer: Tuya
   stock_converter_model: TS130F
   override_z2m_device: L12Z
-  tuya_module: ZT2S_real
+  tuya_module: ZT2S_fake_no_shield
   mcu_family: Telink
   mcu: TLSR8258
   config_str: jwv3cwak;TS130F-NOUS;BD2u;LD3i;XA0D7u;CB5B4; 
@@ -6464,8 +6464,7 @@ MODULE_NOUS_L12Z:
   stock_image_type: 524
   firmware_image_type: 47119
   build: yes
-  status: in_progress
-  info: Relay outputs and reset button confirmed; wall inputs and network LED unresolved
+  status: fully_supported
+  info: Supported
   threads: https://github.com/romasku/tuya-zigbee-switch/issues/521
   store: https://nous.technology/product/l12z.html
-  store: https://www.zemismart.com/products/tb26-6

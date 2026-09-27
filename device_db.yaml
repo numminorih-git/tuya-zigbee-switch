@@ -6484,7 +6484,7 @@ MODULE_TUYA_NOVATO_TS130F_v2:
   mcu_family: Telink
   mcu: TLSR8258
   config_str: zhg356le;TS130F-NOV2;BC3u;LC4;XC2B4f;CB5D2;
-  alt_config_str: zhg356le;TS130F-NOV2;BC3u;LC4;SC2f;RB5;SB4f;RD2;
+  alt_config_str: null
   old_manufacturer_names: null
   old_zb_models: null
   stock_manufacturer_id: 4417

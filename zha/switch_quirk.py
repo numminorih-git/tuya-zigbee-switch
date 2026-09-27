@@ -563,6 +563,7 @@ CONFIGS = [
     "ilauzyjm;TS0011-ZS;SB0u;RD1A4;IA6;M;",
     "rbl8c85w;TS0012-ZS;SA0u;RD1A4;IC1;SB1u;RC0C2;IA5;M;",
     "jwv3cwak;TS130F-NOUS;BD2u;LD3i;XA0D7u;CB5B4;",
+    "zhg356le;TS130F-NOV2;BC3u;LC4;XC2B4f;CB5D2;",
 ]
 
 for config in CONFIGS:

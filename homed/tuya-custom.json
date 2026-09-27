@@ -50135,5 +50135,114 @@
         2
       ]
     }
+  ],
+  "zhg356le": [
+    {
+      "description": "Custom switch (https://github.com/romasku/tuya-zigbee-switch)",
+      "modelNames": [
+        "TS130F-NOV2"
+      ],
+      "options": {
+        "endpointName": {
+          "1": "cover"
+        }
+      }
+    },
+    {
+      "modelNames": [
+        "TS130F-NOV2"
+      ],
+      "exposes": [
+        "multiPressResetCount",
+        "networkIndicator"
+      ],
+      "options": {
+        "customAttributes": {
+          "multiPressResetCount": {
+            "type": "value",
+            "clusterId": 0,
+            "attributeId": 65282,
+            "dataType": 32,
+            "action": true
+          },
+          "networkIndicator": {
+            "type": "bool",
+            "clusterId": 0,
+            "attributeId": 65281,
+            "dataType": 16,
+            "action": true
+          }
+        },
+        "multiPressResetCount": {
+          "type": "number",
+          "min": 0,
+          "max": 255
+        },
+        "networkIndicator": {
+          "type": "toggle"
+        }
+      },
+      "endpointId": 1
+    },
+    {
+      "modelNames": [
+        "TS130F-NOV2"
+      ],
+      "properties": [
+        "coverPosition"
+      ],
+      "actions": [
+        "coverStatus",
+        "coverPosition"
+      ],
+      "bindings": [
+        "cover"
+      ],
+      "reportings": [
+        "coverPosition"
+      ],
+      "exposes": [
+        "cover",
+        "coverMoving",
+        "coverMotorReversal"
+      ],
+      "options": {
+        "customAttributes": {
+          "coverMoving": {
+            "type": "enum",
+            "clusterId": 258,
+            "attributeId": 65280,
+            "dataType": 48,
+            "binding": true,
+            "reporting": {
+              "minInterval": 0,
+              "maxInterval": 255,
+              "valueChange": 1
+            }
+          },
+          "coverMotorReversal": {
+            "type": "value",
+            "clusterId": 258,
+            "attributeId": 65281,
+            "dataType": 16,
+            "action": true
+          }
+        },
+        "coverMoving": {
+          "enum": [
+            "stopped",
+            "opening",
+            "closing"
+          ]
+        },
+        "coverMotorReversal": {
+          "type": "toggle"
+        }
+      },
+      "endpointId": [
+        1,
+        2
+      ]
+    }
   ]
 }
